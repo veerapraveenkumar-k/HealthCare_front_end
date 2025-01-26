@@ -4,7 +4,6 @@ import {jwtDecode} from 'jwt-decode'
 import { Redirect } from 'react-router-dom/cjs/react-router-dom.min'
 import Header from '../Header'
 import Tabs from '../Tabs'
-import Appointmentcard from '../AppointmentCard'
 
 const DoctorTabsList =[
     {tabId: 'PROFILE', displayText: 'My Profile'},
