@@ -1,0 +1,26 @@
+.appoinment-card {
+    width: 70%;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 4px 16px 0px rgb(128, 128, 128, 0.8);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.appointment-side-heading {
+    font-size: 20px;
+    color: #343A40;
+    margin-bottom: 15px;
+}
+
+.appointment-value-text {
+    font-size: 18px;
+    color: #6C757D;
+}
+
+.appointment-description{
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,48 @@
+.login-header {
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    opacity: 0.6;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    color: #28A745;
+    font-size: 35px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.login-header-btn {
+    height: 40px;
+    padding: 0px 15px;
+    background-color: transparent;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.active-login-header-btn {
+    border: none;
+    background-color: #28A745;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    .login-header {
+        display: none;
+    }
+}

@@ -1,0 +1,51 @@
+.create-account-bg {
+    height: 100vh;
+    width: 100%;
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.send-otp-btn {
+    width: 100%;
+    height: 40px;
+    background-color:#28A745;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.error-msg {
+    font-size: 15px;
+    color: #DC3545;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.sm-login-btn{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .sm-login-btn {
+        bottom: 0;
+        position: fixed;
+        display: block;
+        height: 50px;
+        width: 100%;
+        background-color: #007BFF;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        outline: none;
+        cursor: pointer;
+        border: none;
+    }
+}

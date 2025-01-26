@@ -1,0 +1,49 @@
+.header-container {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    background-color: white;
+}
+
+.header-brand{
+    color: #28A745;
+    font-size: 35px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.logout-btn{
+    height: 40px;
+    width: 120px;
+    background-color: #007BFF;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sm-menu-icon {
+    display: none;
+}
+
+@media (max-width: 1050px){
+    .header-brand {
+        font-size: 28px;
+    }
+
+    .logout-btn {
+        display: none;
+    }
+
+    .sm-menu-icon {
+        display: block;
+        color: black;
+        height: 30px;
+        width: 30px;
+    }
+}

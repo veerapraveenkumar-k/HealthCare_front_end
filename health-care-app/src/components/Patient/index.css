@@ -1,0 +1,143 @@
+.patient-bg-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #F8F9FA;
+}
+
+.patient-main-container{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.patient-side-bar{
+    min-width: 250px;
+    width: 25%;
+    height: 90vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.patient-content-container {
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    background-color: #F8F9FA;
+    padding: 30px;
+}
+
+.slider-menu{
+   display: none;
+}
+
+.slider-top-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-appointment-btn {
+    margin-top: 40px;
+    width: 70%;
+    height: 45px;
+    background-color: #28A745;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.content-heading{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.appoinment-list-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.no-appoinment-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-appoinment-text{
+    color: #343A40;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.create-profile-btn{
+    margin-top: 20px;
+    width: 150px;
+    height: 45px;
+    background-color:#007BFF;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+
+@media(max-width: 1050px){
+    .patient-bg-container {
+        z-index: -1;
+    }
+
+    .patient-side-bar{
+        display: none;
+    }
+    .patient-content-container{
+        position: fixed;
+        height: 90vh;
+        z-index: 1;
+    }
+
+    .slider-menu{
+        display: block;
+        top: 0;
+        left: 0;
+        min-width: 250px;
+        width: 25%;
+        height: 90vh;
+        background-color: white;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .slider-logout-btn {
+        width: 100%;
+        height: 50px;
+        background-color: #007BFF;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .content-heading {
+        font-size: 25px;
+    }
+}
